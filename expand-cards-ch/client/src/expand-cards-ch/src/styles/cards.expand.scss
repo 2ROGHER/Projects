@@ -1,0 +1,40 @@
+$border-radius: 20px;
+
+@mixin flow-styles {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+@mixin expand($width) {
+    position: relative;
+    width: $width;
+    overflow: hidden;
+    border-radius: $border-radius;
+    transition: ease 0.5s;
+    img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 20px;
+        border-radius: $border-radius;
+        cursor: pointer;
+    }
+}
+.c-container {
+    @include flow-styles();
+    .img-container {
+        @include expand(150px);
+    }
+}
+
+.c-container {
+    @include flow-styles();
+    .hover {
+        @include expand(500px);
+    }
+}

@@ -1,0 +1,89 @@
+.container-s {
+  font-family: "Poppins";
+  position: absolute;
+  border: 1px solid #fff;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 480px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+.row-1-s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0 0 0;
+}
+.row-1-s h2 {
+  font-weight: 500;
+  line-height: 27px;
+  color: #4f4f4f;
+  letter-spacing: -1px;
+}
+.row-2-s {
+  /* TODO: ve que este cuadro coincida con los otros */
+  margin: 1rem 0;
+}
+.img-box {
+  width: 338px;
+  height: 218px;
+  border-radius: 12px;
+  border: 1px solid blue;
+}
+
+.row-3-s {
+  position: relative;
+  border: 1px solid green;
+  position: relative;
+  margin: 1.5rem 0;
+  width: 338px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  background: #F6F8FB
+}
+.row-3-s input, .row-3-s button  {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: transform(-50%, -50%); */
+}
+.row-3-s input {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border:none;
+    width: 235px;
+    color: #4F4F4F;
+    font-family: "Poppins";
+    background: none;
+    left: 5px;
+
+}
+.row-3-s button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 90px;
+    height: 30px;
+    border:none;
+    border-radius: 8px;
+    background: #2F80ED;
+    color: #FFFFFF;
+    font-family: "Poppins";
+    line-height: 12px;
+    letter-spacing: -.2px;
+    font-size: 12px;
+
+}
+
